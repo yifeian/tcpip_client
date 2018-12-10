@@ -103,7 +103,7 @@ void str_echo_stdio(int sockfd)
 
 
 
-#if 1
+#if 0
 
 int main(int argc, char **argv)
 {
@@ -149,7 +149,7 @@ int main(int argc, char **argv)
 	}
 */
 	sockfd = tcp_udp_client(argv[1], argv[2], SOCK_STREAM);
-	cli_select(stdin, sockfd);
+	str_cli_thread(stdin, sockfd);
 
 	exit(0);
 }

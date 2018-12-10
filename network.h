@@ -39,7 +39,7 @@
 #define	MAXLINE		4096	/* max text line length */
 
 #define max(a,b)    ((a) > (b) ? (a) : (b))
-#define min(a,b)    ((a) > (b) ? (a) : (b))
+#define min(a,b)    ((a) < (b) ? (a) : (b))
 
 #define SA struct sockaddr
 
