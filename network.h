@@ -34,6 +34,10 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <pthread.h>
+#include <semaphore.h>
+#include	<stdarg.h>		/* ANSI C header file */
+#include	<syslog.h>
+
 
 /* Miscellaneous constants */
 #define	MAXLINE		4096	/* max text line length */

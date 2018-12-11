@@ -1,7 +1,6 @@
 #include	"network.h"
 
-#include	<stdarg.h>		/* ANSI C header file */
-#include	<syslog.h>		/* for syslog() */
+		/* for syslog() */
 
 int		daemon_proc;		/* set nonzero by daemon_init() */
 
